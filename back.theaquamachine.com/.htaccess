@@ -1,0 +1,24 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/bhoopreet/back.theaquamachine.com"
+PassengerBaseURI "/"
+PassengerNodejs "/home/bhoopreet/nodevenv/back.theaquamachine.com/24/bin/node"
+PassengerAppType node
+PassengerStartupFile server.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+SetEnv DB_HOST localhost
+SetEnv DB_NAME aqua_machine
+SetEnv DB_PASSWORD mh11bt4018#2020
+SetEnv DB_PORT 3306
+SetEnv DB_USER aqua
+SetEnv JWT_EXPIRES_IN 7d
+SetEnv JWT_SECRET abc#hasdgj*abdc*74a
+SetEnv PORT 5000
+SetEnv SMTP_HOST mail.theaquamachine.com
+SetEnv SMTP_PORT 465
+SetEnv SMTP_USER info@theaquamachine.com
+SetEnv SMTP_PASS India@2026
+SetEnv SMTP_ENCRYPTION ssl
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END

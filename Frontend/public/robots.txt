@@ -1,0 +1,20 @@
+# robots.txt for AQUA MACHINE
+User-agent: *
+Allow: /
+Allow: /products
+Allow: /product/
+Allow: /category/
+Allow: /about
+Allow: /contact
+
+# Block search bots from indexing private layouts
+Disallow: /admin/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /profile/
+Disallow: /my-orders/
+Disallow: /addresses/
+Disallow: /wishlist/
+
+Sitemap: https://www.theaquamachine.com/sitemap.xml
+Sitemap: https://back.theaquamachine.com/sitemap.xml
